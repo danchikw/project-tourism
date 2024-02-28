@@ -1,0 +1,157 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Teko" ;
+}
+.block-image{
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/img1.jpeg");
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.block-image::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Чем меньше третий параметр в rgba(), тем менее прозрачен темный фильтр */
+    z-index: 1; /* Поместите фильтр поверх фона */
+}
+.block-content{
+    width: 1200px;
+    margin: 40px 0 0 0;
+    z-index: 2;
+    /*background: #f90000;*/
+}
+.logos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-title{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+}
+.title{
+    display: flex;
+    color: white;
+    margin: 0 0 0 10px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.menu1 a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.menu1:hover{
+    color: #f90000;
+}
+.icons{
+    color: white;
+    display: flex;
+    font-size: 20px;
+    gap: 20px;
+}
+.icon1:hover{
+    color: #4aff00;
+}
+.icon2:hover{
+    color: #d104ff;
+}
+.icon3:hover{
+    color: #0051ff;
+}
+.icon4:hover{
+    color: #f90000;
+}
+.content-center1{
+    margin: 120px 0 0 0;
+}
+
+.kyrgyzstan{
+    font-size: 100px;
+    color: white;
+    font-weight: bold;
+}
+.animation1{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+}
+.button1{
+    width: 120px;
+    height: 40px;
+    margin: 30px 0 0 0;
+    font-weight: bold;
+    font-size: 17px;
+    background: none;
+    border: 1px solid white;
+    color: white;
+}
+.button1:hover{
+    background: #f90000;
+    border: 1px solid #f90000;
+    transition: 0.5s;
+}
+.red-con{
+    width: 100%;
+    height:  250px;
+    background: #f90000;
+    opacity: 0.8;
+    position: absolute;
+    margin: -250px 0 0 0;
+    clip-path: polygon(100% 0, 0% 40%, 0 100%, 100% 100%);
+}
+.about{
+    display: flex;
+    position: absolute;
+    margin: 50px 0 0 0;
+}
+.content-title{
+    width: 500px;
+
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+.content-text{
+    margin: 0 0 0 200px;
+    font-size: 25px;
+    color: white;
+}
+
+.block-image2{
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/img2.jpg");
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.block-image2::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Чем меньше третий параметр в rgba(), тем менее прозрачен темный фильтр */
+    z-index: 1; /* Поместите фильтр поверх фона */
+}
