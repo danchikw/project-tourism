@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: "Teko" ;
+
 }
 .menu a{
     text-decoration: none;
@@ -92,6 +92,122 @@
     position: absolute;
     z-index: 2;
 }
+.main-textTitle{
+
+    font-weight: 600;
+    font-family:"Teko",sans-serif;
+    font-size: 70px;
+}
 .main-title{
     color: #ffffff;
+}
+#aboutMe{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #191935;
+    padding: 60px 0;
+    z-index: 1;
+}
+.aboutMe{
+
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(2,300px 900px);
+    grid-template-rows: repeat(1,1fr);
+}
+.text-about{
+    font-size:39px;
+    color: white;
+}
+.title-about{
+    font-size: 25px;
+    color: #f03f3a;
+    font-weight: 900;
+    line-height: 1.3333em;
+    letter-spacing: -0.3px;
+    font-family: "Roboto Condensed", Sans-serif;
+    margin-bottom: 40px;
+}
+.title-p{
+    color: #a3a3ae;
+    font-family: "Roboto Condensed", Sans-serif;
+    font-size: 22px;
+    line-height: 1.6em;
+}
+.marginn-p{
+    margin: 40px 0 40px 0;
+}
+.adam-smith{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.bgr-img{
+    width: 100%;
+    height: 500px;
+    background-image: url("../images/about-2-img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+/*.bgr-img::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Чем меньше третий параметр в rgba(), тем менее прозрачен темный фильтр
+    z-index: 4;
+}
+*/
+#withMe{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #191935;
+    padding: 60px 0;
+    z-index: 1;
+}
+.withMe{
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(2,350px 810px);
+    grid-template-rows: repeat(1,1fr);
+    grid-gap: 40px;
+}
+.text-withMe {
+    color: #a3a3ae;
+    font-family: "Roboto Condensed", Sans-serif;
+    font-size: 22px;
+    line-height: 1.6em;
+}
+.ulic{
+    display: flex;
+
+}
+.left{
+    margin-right: 30px;
+}
+.li-for{
+    display: flex;
+    margin-top: 40px;
+}
+.li-for h2{
+    font-size: 16px;
+    color: white;
+    font-family: "Roboto Condensed", Sans-serif;
+
+}
+.icon-for{
+    margin-right: 5px;
+    font-size: 18px;
+    color: #f03f3a;
 }
