@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Teko" ;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #191935;
+}
+.block-content{
+    width: 1200px;
+    margin: 0 0 0 0;
+    z-index: 2;
+    /*background: #f90000;*/
+}
+.logos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-title{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+}
+.title{
+    display: flex;
+    color: white;
+    margin: 0 0 0 10px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.menu1 a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.menu1 a:hover{
+    transition: 0.3s;
+    color: #f90000;
+}
+.icons{
+    color: white;
+    display: flex;
+    font-size: 20px;
+    gap: 20px;
+}
+.icon1:hover{
+    color: #4aff00;
+}
+.icon2:hover{
+    color: #d104ff;
+}
+.icon3:hover{
+    color: #0051ff;
+}
+.icon4:hover{
+    color: #f90000;
+}

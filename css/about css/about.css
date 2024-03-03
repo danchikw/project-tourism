@@ -1,12 +1,13 @@
 *{
     margin: 0;
     padding: 0;
-
+    font-family: "Teko" ;
 }
-.menu a{
+a{
     text-decoration: none;
 }
 .header{
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,8 +15,9 @@
 }
 .block-content{
     width: 1200px;
-    margin: 40px 0 40px 0;
+    margin: 0 0 0 0;
     z-index: 2;
+    /*background: #f90000;*/
 }
 .logos{
     display: flex;
@@ -40,11 +42,13 @@
     gap: 50px;
 }
 .menu1 a{
+    text-decoration: none;
     color: white;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 20px;
 }
-.menu1:hover{
+.menu1 a:hover{
+    transition: 0.3s;
     color: #f90000;
 }
 .icons{
@@ -54,8 +58,20 @@
     gap: 20px;
 }
 .icon1:hover{
+    color: #4aff00;
+}
+.icon2:hover{
+    color: #d104ff;
+}
+.icon3:hover{
+    color: #0051ff;
+}
+.icon4:hover{
     color: #f90000;
 }
+
+
+
 
 .main-block{
     width: 1200px;
@@ -66,7 +82,7 @@
     align-items: center;
     width: 100%;
     height: 640px;
-    background-image: url("../images/about-1-img.jpg  ");
+    background-image: url("../../images/about-3-img.jpg  ");
     background-repeat:no-repeat;
     background-size: cover;
     position: relative;
@@ -88,7 +104,7 @@
     font-family:"Teko",sans-serif;
     line-grid-progression: 0.6;
     font-size: 50px;
-    margin-top: 250px;
+    margin-top: 200px;
     position: absolute;
     z-index: 2;
 }
@@ -149,7 +165,7 @@
 .bgr-img{
     width: 100%;
     height: 500px;
-    background-image: url("../images/about-2-img.jpg");
+    background-image: url("../../images/about-2-img.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -210,4 +226,131 @@
     margin-right: 5px;
     font-size: 18px;
     color: #f03f3a;
+}
+.bgr-kg{
+    width: 100%;
+    height: 500px;
+    background-image: url("../../images/about-6-img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#many--countries{
+    height: 300px;
+    background-color: #191935;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.many--countries__center{
+    width: 1200px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2,350px 810px);
+    grid-template-rows: repeat(1,1fr);
+    grid-gap: 40px;
+}
+.text-countries{
+    margin-top: 0;
+    font-size:50px;
+    font-weight: bold;
+    color: white;
+}
+.title-countries{
+    color: #a3a3ae;
+    font-family: "Roboto Condensed", Sans-serif;
+    font-size: 20px;
+    line-height: 1.6em;
+}
+
+#elements--posts{
+    position: relative;
+    width: 100%;
+    height: 747px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,147px);
+}
+.post--bgr1{
+    position: relative;
+    height: 747px;
+    background-image: url("../../images/about-13-img.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.post--bgr2{
+    position: relative;
+    height: 747px;
+    background-image: url("../../images/about-5-img.jpg");
+    background-repeat:no-repeat;
+    background-position: center;    background-size: cover;
+}
+.post--bgr3{
+    position: relative;
+    height: 747px;
+    background-image: url("../../images/about-15-img.jpg");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.post--bgr3::after,.post--bgr1::after,.post--bgr2::after{
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4); /* Чем меньше третий параметр в rgba(), тем менее прозрачен темный фильтр */
+    z-index: 0;
+}
+.text--post{
+    width: 250px;
+ }
+.text--post h2{
+    transition: 0.8s;
+    font-size: 50px;
+    color: white;
+    line-height: 0.9em;
+}
+.text--post{
+    position: absolute;
+    z-index: 30;
+    top: 450px;
+    left: 80px;
+}
+.text--post span{
+    transition: 0.8s;
+    font-size: 25px;
+    color: white;
+}
+.text--post h2:hover,.text--post span:hover{
+    transition: 0.4s;
+    color: #f90000;
+}
+#footer{
+    height: 70px;
+    background-color: #191935;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+}
+.footer span{
+    color: #f90000;
+    font-family: "Roboto Condensed", Sans-serif;
+}
+.footer h2{
+    font-size: 18px;
+    color: white;
+    font-family: "Roboto Condensed", Sans-serif;
 }
