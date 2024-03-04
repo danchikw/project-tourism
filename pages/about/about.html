@@ -9,22 +9,24 @@
   <link rel="stylesheet" href="../../css/about%20css/about.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script  defer src="./main.js"></script>
+  <link rel="stylesheet" href="../../css/about%20css/aboutAdaptiv.css">
   <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
-<section class="header">
+<section class="header1" >
   <div class="block-content">
-    <header>
-      <div class="logos">
-        <div class="logo-title">
-          <img class="logo" src="../../images/log.png">
-          <h2 class="title">OshNuru</h2>
-        </div>
-        <div class="menu">
-          <div class="menu1"><a href="../../index.html">HOME</a></div>
-          <div class="menu1"><a href="">ABOUT</a></div>
-          <div class="menu1"><a href="/pages/contact.html">CONTACTS</a></div>
-        </div>
+    <header class="header ">
+      <div class="logo-title">
+        <img class="logo" src="../../images/log.png">
+        <h2 class="title">OshNuru</h2>
+      </div>
+      <div class="logos" id="logos">
+        <ul class="menu">
+          <a href="../../index.html"><h3 class="menu1"> HOME</h3></a>
+          <a href=""><h3 class="menu1">ABOUT</h3></a>
+          <a href="/pages/contact.html"><h3 class="menu1">CONTACT</h3></a>
+        </ul>
         <div class="icons">
           <a class="icon1">
             <ion-icon name="logo-whatsapp"></ion-icon>
@@ -38,11 +40,17 @@
           <a class="icon1">
             <ion-icon name="logo-youtube"></ion-icon>
           </a>
+
         </div>
+
       </div>
+      <button class="header--burger__btn" id="burger">
+        <span></span><span></span><span></span>
+      </button>
     </header>
   </div>
 </section>
+
 
 <section id="main-block">
   <div class="main-block">

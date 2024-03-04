@@ -6,8 +6,19 @@
 a{
     text-decoration: none;
 }
-.header{
-    height: 100px;
+body{
+    position: relative;
+    background-color:#191935;
+    overflow: hidden;
+    width:  100%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.header1{
+    height: 140px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,13 +27,18 @@ a{
 .block-content{
     width: 1200px;
     margin: 0 0 0 0;
-    z-index: 2;
+
     /*background: #f90000;*/
 }
 .logos{
     display: flex;
     align-items: center;
     justify-content: space-between;
+     z-index: 100;
+}
+.burger--menu{
+    display: flex;
+
 }
 .logo-title{
     display: flex;
@@ -40,37 +56,58 @@ a{
     display: flex;
     align-items: center;
     gap: 50px;
+    margin-right: 300px;
+    list-style-type: none;
 }
-.menu1 a{
+.menu1{
     text-decoration: none;
     color: white;
     font-weight: bold;
     font-size: 20px;
 }
-.menu1 a:hover{
+.menu1:hover{
     transition: 0.3s;
     color: #f90000;
 }
 .icons{
     color: white;
     display: flex;
+    align-items: center;
     font-size: 20px;
     gap: 20px;
 }
 .icon1:hover{
-    color: #4aff00;
-}
-.icon2:hover{
-    color: #d104ff;
-}
-.icon3:hover{
-    color: #0051ff;
-}
-.icon4:hover{
-    color: #f90000;
+    color:#f90000;
 }
 
+.header--burger__btn{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color:transparent;
+    display: none;
+    z-index: 100;
 
+}
+.header--burger__btn span{
+    width: 30px;
+    height: 3px;
+    position: absolute;
+    background-color: #fff;
+    left: 5px;
+    transition: background-color .5s, opacity .25s, transform .5s;
+    will-change:  transform;
+}
+.header--burger__btn span:hover{
+    background-color: #777676;
+}
+.header--burger__btn span:nth-child(1){
+    transform: translateY(-10px);
+}
+.header--burger__btn span:nth-child(3){
+    transform: translateY(10px);
+}
 
 
 .main-block{
@@ -85,7 +122,7 @@ a{
     background-image: url("../../images/about-3-img.jpg  ");
     background-repeat:no-repeat;
     background-size: cover;
-    position: relative;
+position: relative;
 
 }
 #main-block::after{
@@ -96,7 +133,7 @@ a{
     height: 100%;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.5); /* Чем меньше третий параметр в rgba(), тем менее прозрачен темный фильтр */
-    z-index: 1;
+
 }
 .main-text{
     color: #ffffff;
