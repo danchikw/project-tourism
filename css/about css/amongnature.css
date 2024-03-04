@@ -87,7 +87,7 @@ header{
     border: none;
     background-color:transparent;
     display: none;
-
+    cursor: pointer;
 }
 .header--burger__btn span{
     width: 30px;
@@ -132,7 +132,7 @@ header{
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: blue;
+        background-color:#191935;
         padding: 60px 0;
         visibility: hidden;
         transition: transform .5s, opacity .5s, visibility .5s;
