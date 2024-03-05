@@ -42,6 +42,9 @@
 .logo{
     width: 50px;
 }
+.media-menu{
+    display: none;
+}
 .title{
     display: flex;
     color: white;
@@ -80,6 +83,178 @@
 .icon4:hover{
     color: #f90000;
 }
+.media-menu-block2{
+    background: #191935;
+    width: 260px;
+    position: fixed;
+    z-index: 5;
+    height: 100%;
+
+}
+
+.block-in-media{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    margin: 10px  0 0 0;
+}
+
+.logo-title-media{
+    display: flex;
+    align-items: center;
+}
+.media-cloused{
+    font-size: 25px;
+    color: white;
+}
+.logo-media{
+    width: 25px;
+
+}
+.title-media{
+    font-size: 20px;
+    margin: 0 0 0 5px;
+    color: white;
+}
+.media-menu-block{
+    display: none;
+    background: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+a{
+    text-decoration: none;
+}
+.menu-media{
+    margin: 20px  0 0 0;
+    width: 100%;
+}
+.media-menu1 {
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+.media-menu1:hover{
+    color: #f90000;
+    transition: 0.3s;
+}
+.media-icons{
+    width: 100%;
+    margin: 20px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.icon1-media{
+    color: white;
+    font-size: 25px;
+}
+.icon1-media:hover{
+    color: green;
+    transition: 0.3s;
+}
+.icon2-media{
+    color: white;
+    font-size: 25px;
+}
+.icon2-media:hover{
+    color: #d104ff;
+    transition: 0.3s;
+}
+.icon3-media{
+    color: white;
+    font-size: 25px;
+}
+.icon3-media:hover{
+    color: #0051ff;
+    transition: 0.3s;
+}
+.icon4-media{
+    color: white;
+    font-size: 25px;
+}
+.icon4-media:hover{
+    color: #f90000;
+    transition: 0.3s;
+}
+
+
+                    /*media*/
+
+@media screen and (max-width: 480px) {
+    .block-image{
+        position: relative;
+        width: 100%;
+        height: 400px;
+    }
+    .block-content{
+        position: absolute;
+        width: 80%;
+        z-index: 2;
+        margin: 15px 0 0 0;
+    }
+    .logos{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .logo-title{
+        display: flex;
+        align-items: center;
+    }
+    .logo{
+        width: 30px;
+    }
+    .title{
+        font-size: 17px;
+        display: flex;
+        color: white;
+        margin: 0 0 0 5px;
+    }
+    .media-menu{
+        display: block;
+        font-size: 25px;
+        color: white;
+    }
+    .media-menu-block{
+        /*display: none;*/
+    }
+
+
+    .menu{
+        display: none;
+    }
+    .menu1 a{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+    .menu1 a{
+       display: none;
+    }
+    .icons{
+        display: none;
+    }
+
+
+}
+
+/*   /////////////////////////////     */
+
+
+
 .content-center1{
     margin: 120px 0 0 0;
 }
@@ -307,7 +482,7 @@ footer{
     height: 800px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../images/img1.jpeg");
+    background-image: url("../images/footer.jpg");
     position: relative;
     display: flex;
     justify-content: center;
@@ -319,7 +494,7 @@ footer{
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.8); /* Чем меньше третий параметр в rgba(), тем менее прозрачен темный фильтр */
+    background-color: rgba(0, 0, 0, 0.4); /* Чем меньше третий параметр в rgba(), тем менее прозрачен темный фильтр */
     z-index: 1; /* Поместите фильтр поверх фона */
 }
 .txt-footer{
@@ -330,7 +505,7 @@ footer{
 }
 input{
     width: 600px;
-    height: 60px;
+    height: 50px;
     border-bottom: 1px solid white;
     background: none;
     border-top:none;
@@ -340,11 +515,17 @@ input{
     color: white;
     caret-color:rgba(255,255,255,0.4) ;
 }
+
 input::placeholder{
     font-size: 20px;
     color: rgba(255,255,255,0.4);
 }
 input:focus{
     outline: none;
+}
+.sendnow{
+    margin: 50px 0 0 0;
+    width: 120px;
+    height: 40px;
 }
 
