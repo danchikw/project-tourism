@@ -107,13 +107,68 @@
 
 footer
 {
-    height: 150px;
-    background-color: #191935;
+    
+    background-image: url("../images/contact_fon.jpg  ");
+}
+footer div
+{
+   padding: 40px 60px;
+   margin-left: 200px;
+  
+}
+
+footer input
+{
+    background-color: #fffa9863;
+    width: 60%;
+    border-radius: 10px;
+    padding: 5px 0;
+    margin: 10px 0;
+    font-size: 20px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 footer h1{
- 
-    text-align: center;
-    padding-top: 50px ;
     color: white;
+    float: left;
+    width: 10%;
+    margin-top: 10px;
     
+}
+
+@media screen and (max-width : 480px){
+    footer input
+    {
+        background-color: #fffa9863;
+        width: 90%;
+        font-size: 15px;
+    
+    }
+    footer div
+{
+   padding: 15px 40px;
+   margin: 0;
+}
+    footer h1
+    {
+        font-size: large;
+    }
+    .main-text{
+        color: #ffffff;
+        font-weight: 100;
+        font-size: 20px;
+        margin: 40px 20px 0 30px;
+        
+    }
+    #main-block{
+
+        height: 300px;
+        
+    }
+
+    .main-block{
+        width: 100%;  
+   
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
 }
