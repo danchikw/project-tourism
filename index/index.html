@@ -8,25 +8,24 @@
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Tourism</title>
 </head>
 <body>
 
 <div class="block-image">
-
     <div class="block-content">
         <header>
             <div class="logos">
                 <div class="logo-title">
-                    <img class="logo" src="images/log.png">
+                    <img class="logo" src="../images/log.png">
                     <h2 class="title">OshNuru Nurs</h2>
                 </div>
                 <div class="menu">
 
                     <div class="menu1"><a href="index.html">HOME</a></div>
-                    <div class="menu1"><a href="./pages/about/about.html">ABOUT</a></div>
-                    <div class="menu1"><a href="./pages/contact.html">CONTACTS</a></div>
+                    <div class="menu1"><a href="../pages/about/about.html">ABOUT</a></div>
+                    <div class="menu1"><a href="../pages/contact.html">CONTACTS</a></div>
 
                 </div>
                 <div class="media-menu" onclick="MedIcon()">
@@ -55,7 +54,7 @@
                 <p class="kyrgyzstan">KYRGYZSTAN</p>
                 <span class="animation1">THE BEST VACATION<br>AMONG NATURE</span>
                 <p>
-                    <button type="submit" class="button1">MORE</button>
+                    <button type="submit" class="button1"><a href="/pages/about/about.html">MORE</a></button>
                 </p>
                 <div class="about" data-aos="fade-up-right">
                     <div class="content-title"> ABOUT ME</div>
@@ -70,11 +69,13 @@
     </div>
 </div>
 
+<!-- @ media none -->
+
 <div class="media-menu-block" id="media-menu">
     <div class="media-menu-block2" id="media-black">
         <div class="block-in-media">
             <div class="logo-title-media">
-                <img class="logo-media" src="images/log.png">
+                <img class="logo-media" src="../images/log.png">
                 <h2 class="title-media">OshNuru Nurs</h2>
             </div>
             <div class="media-cloused" onclick="MedIcons()">
@@ -85,10 +86,10 @@
             <a href="index.html">
                 <div class="media-menu1">HOME</div>
             </a>
-            <a href="./pages/about/about.html">
+            <a href="../pages/about/about.html">
                 <div class="media-menu1">ABOUT</div>
             </a>
-            <a href="./pages/contact.html">
+            <a href="../pages/contact.html">
                 <div class="media-menu1">CONTACTS</div>
             </a>
             <div class="media-icons">
@@ -109,7 +110,10 @@
     </div>
 </div>
 
+ <!-- -->
+
 <div class="red-con"></div>
+
 <div class="block-image2">
     <div class="block-content">
         <p class="travel">OshNuru</p>
@@ -124,7 +128,7 @@
             the Grand Canyon.
         </div>
         <p>
-            <button type="submit" class="button2">MORE</button>
+            <a href="../index/index2/project.html"><button type="submit" class="button2">MORE</button></a>
         </p>
         <div class="tags">
             <ion-icon name="chatbubble-outline"></ion-icon>&nbsp;&nbsp;0&nbsp;
@@ -147,7 +151,7 @@
             the Grand Canyon.
         </div>
         <p>
-            <button type="submit" class="button2">MORE</button>
+            <a href="../index/index2/project.html#id2"><button type="submit" class="button2">MORE</button></a>
         </p>
         <div class="tags">
             <ion-icon name="chatbubble-outline"></ion-icon>&nbsp;&nbsp;0&nbsp;
@@ -170,7 +174,7 @@
             the Grand Canyon.
         </div>
         <p>
-            <button type="submit" class="button2">MORE</button>
+            <a href="../index/index2/project.html#id3"><button type="submit" class="button2">MORE</button></a>
         </p>
         <div class="tags">
             <ion-icon name="chatbubble-outline"></ion-icon>&nbsp;&nbsp;0&nbsp;
@@ -194,7 +198,7 @@
             the Grand Canyon.
         </div>
         <p>
-            <button type="submit" class="button2">MORE</button>
+            <a href="../index/index2/project.html#id4"><button type="submit" class="button2">MORE</button></a>
         </p>
         <div class="tags">
             <ion-icon name="chatbubble-outline"></ion-icon>&nbsp;&nbsp;0&nbsp;
@@ -217,7 +221,7 @@
             the Grand Canyon.
         </div>
         <p>
-            <button type="submit" class="button2">MORE</button>
+            <a href="../index/index2/project.html#id5"><button type="submit" class="button2">MORE</button></a>
         </p>
         <div class="tags">
             <ion-icon name="chatbubble-outline"></ion-icon>&nbsp;&nbsp;0&nbsp;
@@ -240,7 +244,7 @@
             <p>
                 <input type="email" placeholder="Email:">
             </p>
-            <button class="sendnow">SENDNOW</button>
+            <button class="sendnow" type="submit">SENDNOW</button>
             <div class="footer-icons">
                 <a class="icon1-footer1" href="#">
                     <ion-icon name="logo-whatsapp"></ion-icon>
@@ -269,6 +273,6 @@
     AOS.init();
 </script>
 </body>
-<script src="script/script.js"></script>
+<script src="index2/script/script.js"></script>
 
 </html>
