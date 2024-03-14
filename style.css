@@ -11,7 +11,7 @@
     height: 800px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../images/img1.jpeg");
+    background-image: url("images/img1.jpeg");
     position: relative;
     display: flex;
     justify-content: center;
@@ -153,7 +153,7 @@ a{
     height: 800px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../images/img2.jpg");
+    background-image: url("images/img2.jpg");
     position: relative;
     display: flex;
     justify-content: center;
@@ -230,7 +230,7 @@ a{
     height: 800px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../images/imga3.jpg");
+    background-image: url("images/imga3.jpg");
     position: relative;
     display: flex;
     justify-content: center;
@@ -250,7 +250,7 @@ a{
     height: 800px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../images/img4.jpg");
+    background-image: url("images/img4.jpg");
     position: relative;
     display: flex;
     justify-content: center;
@@ -270,7 +270,7 @@ a{
     height: 800px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../images/img5.jpg");
+    background-image: url("images/img5.jpg");
     position: relative;
     display: flex;
     justify-content: center;
@@ -290,7 +290,7 @@ a{
     height: 800px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../images/img6.jpeg");
+    background-image: url("images/img6.jpeg");
     position: relative;
     display: flex;
     justify-content: center;
@@ -315,7 +315,7 @@ footer{
     height: 800px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../images/footer.jpg");
+    background-image: url("images/footer.jpg");
     position: relative;
     display: flex;
     justify-content: center;
