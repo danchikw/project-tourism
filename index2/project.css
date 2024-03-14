@@ -104,6 +104,7 @@ a{
     align-items: center;
     margin: 20px 0 0 0;
     font-size: 20px;
+    min-font-size: 10px;
     color: white;
     font-weight: 100;
 }
@@ -355,8 +356,6 @@ footer{
     .block1-index2{
         margin: 0 0 0 0;
     }
-
-
 
     footer{
         width: 100%;
